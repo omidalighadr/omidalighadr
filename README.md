@@ -30,9 +30,10 @@ The source is private; I'm happy to walk through the design.
 
 ## Skills
 
-- **Backend:** Python · asyncio · FastAPI · Django · REST APIs · WebSocket · Celery · RabbitMQ / Kafka · PostgreSQL · Redis · SQLite · SQLAlchemy
-- **DevOps:** Linux · Bash · systemd · Nginx · Docker · Kubernetes · Terraform · Ansible · GitHub Actions · GitLab CI/CD
-- **Cloud & observability:** AWS / GCP / Azure · Prometheus · Grafana · OpenTelemetry · ELK · Sentry
-- **Security:** OWASP Top 10 · IAM · secure coding · rate limiting · container security
-- **Architecture:** Clean Architecture · DDD · microservices · distributed systems · system design
-- **Tooling:** pytest · Ruff · mypy · uv / Poetry · Make · LLM APIs
+Focused on building and running Telegram bots.
+
+- **Bot development:** Python · asyncio · python-telegram-bot · Telegram Bot API (including a self-hosted Bot API server)
+- **Integrations:** httpx · REST APIs · LLM APIs (Gemini / OpenAI-compatible) · CrossRef
+- **Data & jobs:** SQLite · background workers · schedulers
+- **Deployment:** Docker · GitHub Actions · Linux / macOS service management
+- **Quality:** pytest · Ruff · mypy
