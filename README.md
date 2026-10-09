@@ -28,7 +28,11 @@ The source is private; I'm happy to walk through the design.
 - Verify instead of guess wherever the data can be checked.
 - Public code is typed, linted and tested.
 
-## Stack
+## Skills
 
-Python · asyncio · httpx · python-telegram-bot · SQLite · Docker · GitHub Actions ·
-Linux/macOS service management · REST APIs · LLM APIs · Pillow
+- **Backend:** Python · asyncio · FastAPI · Django · REST APIs · WebSocket · Celery · RabbitMQ / Kafka · PostgreSQL · Redis · SQLite · SQLAlchemy
+- **DevOps:** Linux · Bash · systemd · Nginx · Docker · Kubernetes · Terraform · Ansible · GitHub Actions · GitLab CI/CD
+- **Cloud & observability:** AWS / GCP / Azure · Prometheus · Grafana · OpenTelemetry · ELK · Sentry
+- **Security:** OWASP Top 10 · IAM · secure coding · rate limiting · container security
+- **Architecture:** Clean Architecture · DDD · microservices · distributed systems · system design
+- **Tooling:** pytest · Ruff · mypy · uv / Poetry · Make · LLM APIs
