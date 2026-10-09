@@ -33,6 +33,7 @@ The source is private; I'm happy to walk through the design.
 Focused on building and running Telegram bots.
 
 - **Bot development:** Python · asyncio · python-telegram-bot · Telegram Bot API (including a self-hosted Bot API server)
+- **Reliability:** rate-limit / flood-control handling with retries · multi-step conversation flows · job queue for heavy work · error logging and monitoring
 - **Integrations:** httpx · REST APIs · LLM APIs (Gemini / OpenAI-compatible) · CrossRef
 - **Data & jobs:** SQLite · background workers · schedulers
 - **Deployment:** Docker · GitHub Actions · Linux / macOS service management
