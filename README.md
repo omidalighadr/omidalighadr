@@ -1,9 +1,9 @@
 # Omid Alighadr
 
-**Backend & DevOps engineer** · Python · 5 years of experience
+**Telegram bot developer** · Python · 5 years of experience
 
-I build and operate backend services and automation: asynchronous Python services,
-third-party API integrations, background job processing, and the Docker / CI tooling around them.
+I build and run Telegram bots in Python: asynchronous services, third-party API and LLM integrations,
+background job processing, and the Docker / CI tooling around them.
 
 ## Selected work
 
@@ -29,8 +29,6 @@ The source is private; I'm happy to walk through the design.
 - Public code is typed, linted and tested.
 
 ## Skills
-
-Focused on building and running Telegram bots.
 
 - **Bot development:** Python · asyncio · python-telegram-bot · Telegram Bot API (including a self-hosted Bot API server)
 - **Reliability:** rate-limit / flood-control handling with retries · multi-step conversation flows · job queue for heavy work · error logging and monitoring
