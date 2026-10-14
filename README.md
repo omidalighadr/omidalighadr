@@ -19,6 +19,8 @@ answers questions, analyses documents and generates images.
 - Reference checker that matches citations to a reference list and verifies them against CrossRef/DOI;
   "not found" is never reported as "fake"
 - Runs as a managed service with a local Telegram Bot API server in Docker
+- Slide generator: an LLM plans a JSON spec that is validated against a schema, then rendered to PPTX with RTL layout, native charts and tables, user-supplied fonts and a vision-tagged image library with de-duplication
+- Zotero connector: sends verified references to one or more Zotero libraries through the Web API
 
 The source is private; I'm happy to walk through the design.
 
