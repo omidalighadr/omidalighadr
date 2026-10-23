@@ -1,41 +1,50 @@
 # Omid Alighadr
 
-**Telegram bot developer** · Python · 5 years of experience
+### Python developer · Telegram bots · AI & media automation
 
-I build and run Telegram bots in Python: asynchronous services, third-party API and LLM integrations,
-background job processing, and the Docker / CI tooling around them.
+I build Telegram assistants and Python tools for media, research and everyday automation. My work connects asynchronous services, external APIs and practical interfaces that keep long-running tasks manageable.
 
-## Selected work
+**Current focus:** original-quality media workflows, useful AI integrations and reliable background processing.
 
-**[Samery](https://github.com/omidalighadr/samery-showcase)** *(source private)* — a single-user AI assistant on Telegram. It retrieves content from configured sources,
-answers questions, analyses documents and generates images.
+## Selected projects
 
-- ~17.6K lines of Python, 50+ commands, 9 background workers (job queue, scheduler, reminders, price alerts)
-- Pluggable LLM layer: Gemini by default, any OpenAI-compatible endpoint, automatic model fallback
-- Reference checker that matches citations to a reference list and verifies them against CrossRef/DOI;
-  "not found" is never reported as "fake"
-- Slide generator: an LLM-planned, schema-validated JSON spec rendered to PPTX with RTL layout, native charts and tables, and a vision-tagged image library
-- Zotero connector: adds references to one or more Zotero libraries through the Web API
-- Runs as a managed service with a local Telegram Bot API server in Docker
+### [Samery — a personal assistant for Telegram](https://github.com/omidalighadr/samery-showcase)
 
-The source is private. See the [architecture overview](https://github.com/omidalighadr/samery-showcase); I'm happy to walk through the design on request.
+A private Python application that brings music, video, research and document tools into one Telegram interface.
 
-**[persian-cover-engine](https://github.com/omidalighadr/persian-cover-engine)** — Python library and CLI that
-renders Persian (RTL) cover images with correct shaping, WCAG-checked palettes and a layout that stays inside
-Instagram's profile-grid crop. Typed (`mypy --strict`), tested, CI on Python 3.10–3.13, Docker image.
+- **Music:** source-quality FLAC workflows, cover art, available lyrics, clean filenames and configurable channel captions.
+- **Video:** best-available YouTube video and audio, including 4K or 8K when available, merged without re-encoding.
+- **Experience:** English menus, download previews, progress updates, cancellation and a saved-music library.
+- **AI & research:** document Q&A, reference checking, PubMed evidence extraction, Zotero integration and presentation generation.
+- **Operations:** owned background jobs, SQLite persistence and a managed macOS service.
 
-## How I work
+**[Explore the capabilities and architecture →](https://github.com/omidalighadr/samery-showcase)**  
+*Public showcase; implementation and credentials remain private.*
 
-- Secrets live in environment files, never in code.
-- Verify instead of guess wherever the data can be checked.
-- Public code is typed, linted and tested.
+### [persian-cover-engine — Persian typography for social covers](https://github.com/omidalighadr/persian-cover-engine)
 
-## Skills
+An open-source Python library and CLI for Persian cover images: correct RTL shaping, automatic text fitting, contrast-checked palettes and layouts designed around Instagram's profile-grid crop.
 
-- **Bot development:** Python · asyncio · python-telegram-bot · Telegram Bot API (including a self-hosted Bot API server)
-- **Reliability:** rate-limit / flood-control handling with retries · multi-step conversation flows · job queue for heavy work · error logging and monitoring
-- **Integrations:** httpx · REST APIs · LLM APIs (Gemini / OpenAI-compatible) · CrossRef · Zotero Web API
-- **Documents:** python-pptx · Pillow
-- **Data & jobs:** SQLite · background workers · schedulers
-- **Deployment:** Docker · GitHub Actions · Linux / macOS service management
-- **Quality:** pytest · Ruff · mypy
+**Typed API · Automated tests · GitHub Actions · Docker**
+
+## Technical toolkit
+
+| Area | Technologies and practices |
+| --- | --- |
+| Python & bots | Python, asyncio, python-telegram-bot, Telegram Bot API |
+| APIs & AI | httpx, REST APIs, Gemini, OpenAI-compatible endpoints |
+| Media & documents | FFmpeg, yt-dlp, Pillow, python-pptx, RTL layouts |
+| Data & reliability | SQLite, caching, background jobs, scheduling, retries and cancellation |
+| Delivery & quality | macOS service management, Docker, GitHub Actions, pytest, Ruff, mypy |
+
+## Engineering approach
+
+- Preserve source quality and show the actual format delivered.
+- Separate background work from the conversation interface.
+- Make progress, limits and failures visible to the user.
+- Keep credentials and private application code out of public repositories.
+- Validate behavior with automated checks and focused real-world tests.
+
+## Connect
+
+For project discussions, reach me through **[GitHub](https://github.com/omidalighadr)**.
