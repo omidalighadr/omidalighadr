@@ -10,4 +10,6 @@ My focus is the complete delivery experience: clear track metadata, embedded art
 
 [Explore the project showcase →](https://github.com/omidalighadr/samery-flac-showcase)
 
-The showcase contains a product overview and a measured output sample. The implementation remains private.
+The showcase includes a measured output sample and public Python utilities for lossless audio verification and Telegram file delivery. The complete bot and Apple Music integration remain private.
+
+[Read the supporting source and tests →](https://github.com/omidalighadr/samery-flac-showcase/tree/main/toolkit)
